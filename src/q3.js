@@ -21,9 +21,19 @@ const dog = {
     breed: "dog"
 }
 
-const cat = dog; // Modify this line
+const cat = dog; 
+const dog = {
+    breed: "dog"
+}
+
+// Clone the dog object using the spread operator
+const cat = { ...dog };
 
 cat.breed = "cat";
 
 console.log("dog", dog); // If success, prints "dog { breed: 'dog' }"
+console.log("cat", cat); // Prints "cat { breed: 'cat' }"
+
+
+
 
