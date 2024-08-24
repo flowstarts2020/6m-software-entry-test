@@ -6,7 +6,22 @@
     - You can refer to this link: https://www.w3schools.com/js/js_modules.asp to check how imports and modules are done.
 */
 
-// Task 1: Add code here
+// Task 1: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5 Output</title>
+</head>
+<body>
+
+    <!-- Your HTML content goes here -->
+
+    <!-- Link to the external JavaScript file -->
+    <script src="external.js"></script>
+</body>
+</html>
+
 
 // Do not change the code below
 document.querySelector("#test").innerHTML = print();
